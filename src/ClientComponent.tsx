@@ -7,13 +7,13 @@ interface IClientComponentProps {
 }
 
 export default function ClientComponent({
-  defaultText = 'default',
+  defaultText = 'Sup, universe?',
 }: IClientComponentProps) {
   const [text, setText] = useState<string>(defaultText)
 
   return (
     <div>
-      <p onClick={() => setText('changed!')}>{text}</p>
+      <p onClick={() => setText('Nothing much.')}>{text}</p>
     </div>
   )
 }

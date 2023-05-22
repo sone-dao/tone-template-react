@@ -1,5 +1,5 @@
 {
-  "name": "lint",
+  "name": "@sone-dao/tone-template-react",
   "version": "1.0.0",
   "main": "dist/cjs/src/index.js",
   "module": "dist/esm/src/index.js",
