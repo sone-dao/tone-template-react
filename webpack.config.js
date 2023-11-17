@@ -11,7 +11,7 @@ module.exports = function (env, argv) {
     output: {
       filename: 'index.js',
       library: '$',
-      libraryTarget: 'umd',
+      libraryTarget: 'commonjs',
       path: path.resolve(__dirname, 'dist'),
     },
     devtool: 'source-map',
@@ -27,6 +27,7 @@ module.exports = function (env, argv) {
     externals: {
       react: 'react',
       'react-dom': 'react-dom',
+      next: 'next',
     },
     resolve: {
       alias: {
