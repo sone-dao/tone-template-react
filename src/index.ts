@@ -1,4 +1,3 @@
-import ClientComponent from './ClientComponent'
-import ServerComponent from './ServerComponent'
+import Component from './Component'
 
-export { ClientComponent, ServerComponent }
+export default Component
